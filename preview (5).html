@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ogbonnia Miracle Bazito | Tech Portfolio</title>
+
+<style>
+:root{
+--bg:#0a0f1f;
+--glass:rgba(255,255,255,0.05);
+--text:#eef2ff;
+--muted:#aab3d6;
+--brand:#6c9cff;
+--accent:#5df2c1;
+--border:rgba(255,255,255,0.1);
+}
+body{
+margin:0;
+font-family:Segoe UI, sans-serif;
+background:linear-gradient(120deg,#0a0f1f,#111b3a);
+color:var(--text);
+}
+.wrap{max-width:1100px;margin:auto;padding:20px;}
+
+nav{
+position:sticky;top:0;
+background:rgba(10,15,31,0.8);
+backdrop-filter:blur(10px);
+padding:10px;
+text-align:center;
+}
+nav a{
+margin:0 10px;
+color:var(--muted);
+text-decoration:none;
+}
+nav a:hover{color:#fff;}
+
+.card{
+background:var(--glass);
+border:1px solid var(--border);
+padding:20px;
+border-radius:16px;
+backdrop-filter:blur(10px);
+transition:.3s;
+}
+.card:hover{transform:translateY(-5px);}
+
+.grid{display:grid;gap:15px;}
+.grid-3{grid-template-columns:repeat(3,1fr);}
+.grid-2{grid-template-columns:repeat(2,1fr);}
+@media(max-width:800px){.grid-3,.grid-2{grid-template-columns:1fr;}}
+
+h1{font-size:40px;margin:10px 0;}
+h2{margin-top:40px;}
+
+.btn{
+display:inline-block;
+padding:12px 18px;
+border-radius:10px;
+background:linear-gradient(45deg,var(--brand),var(--accent));
+color:#000;
+font-weight:bold;
+text-decoration:none;
+margin-top:10px;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+animation:fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(20px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+.badge{
+display:inline-block;
+padding:6px 12px;
+border-radius:20px;
+background:var(--glass);
+border:1px solid var(--border);
+margin:5px;
+font-size:13px;
+}
+
+footer{
+text-align:center;
+margin-top:40px;
+color:var(--muted);
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="wrap">
+
+<!-- HERO -->
+<section class="hero">
+<h1>Ogbonnia Miracle Bazito</h1>
+<p><b>Multi-Skilled Tech Professional</b></p>
+
+<p>
+Consultant • Social Media Manager • Web Developer • Data Analyst • Cybersecurity • UI/UX • Customer Support • Virtual Assistant • Tech Instructor 
+</p>
+
+<div>
+<span class="badge">Tech Branding</span>
+<span class="badge">Consultant</span>
+<span class="badge">Data Driven</span>
+<span class="badge">Problem Solver</span>
+<span class="badge">Tech Trainer</span>
+</div>
+
+<a class="btn" href="#contact">Hire Me</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="card">
+<h2>About Me</h2>
+<p>
+I am a versatile tech professional specializing in web development, data analytics, cybersecurity, UI/UX design, and social media management. I focus on creating practical, user-friendly digital solutions while also supporting clients through customer service and virtual assistance. Passionate about tech and education, I’m committed to helping others grow and succeed in the digital world.
+</p>
+
+<p>
+I help businesses grow through strong digital presence, secure systems,
+and data-driven strategies.
+</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Services</h2>
+
+<div class="grid grid-3">
+
+<div class="card">
+<h3>Social Media Management</h3>
+<p>Content creation, branding, engagement & growth strategies.</p>
+</div>
+
+<div class="card">
+<h3>Web Development</h3>
+<p>Modern responsive websites and landing pages.</p>
+</div>
+
+<div class="card">
+<h3>Data Analysis</h3>
+<p>Data insights, dashboards, and reporting.</p>
+</div>
+
+<div class="card">
+<h3>Cybersecurity</h3>
+<p>Security awareness and system protection.</p>
+</div>
+
+<div class="card">
+<h3>UI/UX Design</h3>
+<p>Clean, user-friendly interface design.</p>
+</div>
+
+<div class="card">
+<h3>Customer Support</h3>
+<p>Professional email, chat, and phone support.</p>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="grid grid-3">
+<div class="card">
+<h3>CONSULTING & STRATEGY PROJECTS</h3>
+<p>Delivered digital transformation strategies, social media growth plans, IT and cybersecurity advisory, business process optimization, and data-driven decision support solutions for businesses and startups.</p>
+</div>
+
+<div class="card">
+<h3>Tech Instruction & Training</h3>
+<p>Delivered training programs in web development, data analytics, cybersecurity, and general digital skills for students and professionals.</p>
+</div>
+
+   <div class="card">
+<h3>Cybersecurity Projects</h3>
+<p>Conducted security audits, vulnerability assessments, network security designs, penetration testing labs, and cybersecurity awareness programs to enhance system protection.</p>
+</div>
+
+  <div class="card">
+<h3>UI/UX Design Projects</h3>
+<p>Designed mobile and web interfaces, created wireframes and user journeys, improved user experience, and conducted usability testing for digital products.</p>
+</div>
+
+    <div class="card">
+<h3>Customer Support & Virtual Assistance</h3>
+<p>Managed CRM systems, handled email and chat support, automated administrative tasks, and optimized client communication workflows.</p>
+</div>
+  
+<div class="card">
+<h3>Web Development Projects</h3>
+<p>Developed responsive websites, e-commerce platforms, portfolio sites, school management systems, and computer-based testing (CBT) platforms with modern technologies.</p>
+</div>
+
+<div class="card">
+<h3>Data Analytics Projects</h3>
+<p>Performed sales analysis, customer behavior insights, student performance tracking, data visualization, and predictive analytics to support informed decision-making.</p>
+</div>
+
+  <div class="card">
+<h3>Advanced / High-Value Projects</h3>
+<p>Worked on anomaly detection systems, CBT center development, smart business dashboards, and AI-driven data analysis solutions.</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card">
+<h2>Contact Me</h2>
+
+<p>Email: ogbonniamiracle@gmail.com</p>
+<p>Phone: +2348109583534 , 09014056284 </p>
+
+  
+
+<a class="btn" href="https://wa.me/2348109583534">Chat on WhatsApp</a>
+<a class="btn" href="mailto:ogbonniamiracle@gmail.com">Send Email</a>
+<a class="btn" href="https://www.linkedin.com/in/miracleogbonnia8827">Linkedin</a>
+</section>
+
+<footer>
+<p>© 2026 Ogbonnia Miracle Bazito</p>
+</footer>
+
+</div>
+
+</body>
+</html>
